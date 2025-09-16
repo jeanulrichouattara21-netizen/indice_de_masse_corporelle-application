@@ -1,0 +1,42 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+*.log
+
+# Fichiers de configuration locaux
+.env
+*.sqlite3
+*.db
+
+# Dossiers de build
+build/
+dist/
+*.egg-info/
+
+# Cache de tests
+.pytest_cache/
+.tox/
+.nox/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Dossiers spécifiques à certains IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+
+# Fichiers générés par matplotlib ou autres libs
+*.png
+*.jpg
+*.svg
